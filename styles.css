@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 80vw;
+}
+
+.input {
+  height: 40px;
+  border-radius: 40px;
+  background-color: rgba(175, 230, 116, 0.46);
+  padding: 0 20px;
+  margin: 20px 0;
+  outline:none;
+}
+
+.table {
+  width: 80vw;
+  background: rgb(175, 230, 116);
+}
+
+.table td {
+  text-align: center;
+  width: 50px;
+  background: rgb(255, 253, 132);
+}
+
+.sort1, .sort2, .sort3, .sort4 {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
