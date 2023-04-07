@@ -1,0 +1,19 @@
+Код выведет:
+Bad: undefined
+Bad: undefined
+Bad: undefined
+Bad: undefined
+
+Первая модификация:
+const arr = [10, 12, 15, 21];
+for (var i = 0; i < arr.length; i++) {
+  if (arr[i] > 13) {
+    console.log(`Good: ${arr[i]}`)
+  } else {
+    console.log(`Bad: ${arr[i]}`)
+  }
+}
+
+Вторая модификация:
+const arr = [10, 12, 15, 21];
+arr.forEach(element => element > 13 ? console.log(`Good: ${element}`) : console.log(`Bad: ${element}`) )
